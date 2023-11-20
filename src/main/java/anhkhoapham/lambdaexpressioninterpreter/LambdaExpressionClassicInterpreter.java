@@ -7,6 +7,7 @@ package anhkhoapham.lambdaexpressioninterpreter;
 import anhkhoapham.lambdacalculus.LambdaExpressionTree.Nodes.LambdaTermExpressionNode;
 import anhkhoapham.lambdacalculus.LambdaExpressionTree.Root.LambdaTermRoot;
 import anhkhoapham.lambdacalculus.LambdaExpressionTree.Builders.LambdaTermNodeBuilder;
+import anhkhoapham.lambdacalculus.LambdaExpressionTree.Nodes.LambdaTermUnfilledExpressionNode;
 import anhkhoapham.lambdacalculus.LambdaExpressonTree.Parser.LambdaExpressionParser;
 import java.util.List;
 import java.util.Optional;
@@ -18,6 +19,14 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 public final class LambdaExpressionClassicInterpreter implements LambdaExpressionInterpreter {
 
+    
+    private final LambdaTermRoot identity;
+    private final LambdaTermRoot two;
+    private final LambdaTermRoot complex;
+    private final LambdaTermNodeBuilder builder;
+    
+    private final LambdaTermUnfilledExpressionNode namedChildlessX;
+    
     public LambdaExpressionClassicInterpreter(LambdaExpressionParser parser, LambdaTermNodeBuilder builder) {
         
         if (builder == null) throw new IllegalArgumentException("builder is null");
@@ -29,13 +38,6 @@ public final class LambdaExpressionClassicInterpreter implements LambdaExpressio
         
         namedChildlessX = builder.buildNamedNode("x", List.of());
     }
-    
-    private final LambdaTermRoot identity;
-    private final LambdaTermRoot two;
-    private final LambdaTermRoot complex;
-    private final LambdaTermNodeBuilder builder;
-    
-    private final LambdaTermExpressionNode namedChildlessX;
     
     @Override
     public Optional<Integer> interpretInt(LambdaTermRoot tree) {        
