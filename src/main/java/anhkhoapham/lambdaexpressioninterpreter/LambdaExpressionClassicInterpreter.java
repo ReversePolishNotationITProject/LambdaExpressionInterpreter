@@ -19,14 +19,6 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 public final class LambdaExpressionClassicInterpreter implements LambdaExpressionInterpreter {
 
-    
-    private final LambdaTermRoot identity;
-    private final LambdaTermRoot two;
-    private final LambdaTermRoot complex;
-    private final LambdaTermNodeBuilder builder;
-    
-    private final LambdaTermUnfilledExpressionNode namedChildlessX;
-    
     public LambdaExpressionClassicInterpreter(LambdaExpressionParser parser, LambdaTermNodeBuilder builder) {
         
         if (builder == null) throw new IllegalArgumentException("builder is null");
@@ -38,6 +30,13 @@ public final class LambdaExpressionClassicInterpreter implements LambdaExpressio
         
         namedChildlessX = builder.buildNamedNode("x", List.of());
     }
+    
+    private final LambdaTermRoot identity;
+    private final LambdaTermRoot two;
+    private final LambdaTermRoot complex;
+    private final LambdaTermNodeBuilder builder;
+    
+    private final LambdaTermExpressionNode namedChildlessX;
     
     @Override
     public Optional<Integer> interpretInt(LambdaTermRoot tree) {        
