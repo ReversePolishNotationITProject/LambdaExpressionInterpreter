@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="anhkhoapham.lambdaexpressioninterpreter.LambdaExpressionInterpreterTest" time="0.403" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="anhkhoapham.lambdaexpressioninterpreter.LambdaExpressionInterpreterTest" time="0.1" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="20"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20\bin"/>
-    <property name="sun.java.command" value="C:\Users\Tuanpa\AppData\Local\Temp\surefire972398469444535081\surefirebooter-20231125172727547_3.jar C:\Users\Tuanpa\AppData\Local\Temp\surefire972398469444535081 2023-11-25T17-27-27_101-jvmRun1 surefire-20231125172727547_1tmp surefire_0-20231125172727547_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Tuanpa\AppData\Local\Temp\surefire8222091897605529997\surefirebooter-20231125181259785_3.jar C:\Users\Tuanpa\AppData\Local\Temp\surefire8222091897605529997 2023-11-25T18-12-59_576-jvmRun1 surefire-20231125181259785_1tmp surefire_0-20231125181259785_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Projects\Java\Lib\LambdaExpressionInterpreter\target\test-classes;D:\Projects\Java\Lib\LambdaExpressionInterpreter\target\classes;C:\Users\Tuanpa\.m2\repository\com\github\ReversePolishNotationITProject\LambdaCalculusJava\0.1.5-SNAPSHOT\LambdaCalculusJava-0.1.5-SNAPSHOT.jar;C:\Users\Tuanpa\.m2\repository\com\github\ArsenalAlex108\CRTPNodesLibraryJava\main-82c41c1fb0-1\CRTPNodesLibraryJava-main-82c41c1fb0-1.jar;C:\Users\Tuanpa\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Tuanpa\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Tuanpa\AppData\Local\Temp\surefire972398469444535081\surefirebooter-20231125172727547_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Tuanpa\AppData\Local\Temp\surefire8222091897605529997\surefirebooter-20231125181259785_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="20.0.2+9-78"/>
@@ -59,7 +59,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="64.0"/>
   </properties>
-  <testcase name="testInterpretTuple" classname="anhkhoapham.lambdaexpressioninterpreter.LambdaExpressionInterpreterTest" time="0.068">
+  <testcase name="testInterpretTuple" classname="anhkhoapham.lambdaexpressioninterpreter.LambdaExpressionInterpreterTest" time="0.02">
     <system-out><![CDATA[interpretTuple
 ]]></system-out>
   </testcase>
@@ -67,19 +67,19 @@
     <system-out><![CDATA[interpretInt
 ]]></system-out>
   </testcase>
-  <testcase name="testTranslateInt" classname="anhkhoapham.lambdaexpressioninterpreter.LambdaExpressionInterpreterTest" time="0.003">
+  <testcase name="testTranslateInt" classname="anhkhoapham.lambdaexpressioninterpreter.LambdaExpressionInterpreterTest" time="0.001">
     <system-out><![CDATA[translateInt
 ]]></system-out>
   </testcase>
-  <testcase name="testInterpretBool" classname="anhkhoapham.lambdaexpressioninterpreter.LambdaExpressionInterpreterTest" time="0.007">
+  <testcase name="testInterpretBool" classname="anhkhoapham.lambdaexpressioninterpreter.LambdaExpressionInterpreterTest" time="0.001">
     <system-out><![CDATA[interpretBool
 ]]></system-out>
   </testcase>
-  <testcase name="testInterpretChar" classname="anhkhoapham.lambdaexpressioninterpreter.LambdaExpressionInterpreterTest" time="0.004">
+  <testcase name="testInterpretChar" classname="anhkhoapham.lambdaexpressioninterpreter.LambdaExpressionInterpreterTest" time="0.002">
     <system-out><![CDATA[interpretChar
 ]]></system-out>
   </testcase>
-  <testcase name="testInterpretList" classname="anhkhoapham.lambdaexpressioninterpreter.LambdaExpressionInterpreterTest" time="0.005">
+  <testcase name="testInterpretList" classname="anhkhoapham.lambdaexpressioninterpreter.LambdaExpressionInterpreterTest" time="0.001">
     <system-out><![CDATA[interpretList
 ]]></system-out>
   </testcase>

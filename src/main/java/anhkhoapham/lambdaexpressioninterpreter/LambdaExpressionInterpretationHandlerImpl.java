@@ -12,13 +12,13 @@ import anhkhoapham.lambdacalculus.LambdaExpressionTree.Root.LambdaTermRoot;
  */
 public final class LambdaExpressionInterpretationHandlerImpl implements LambdaExpressionInterpretationHandler {
 
+
+    private final LambdaExpressionInterpreter interpreter;
     public LambdaExpressionInterpretationHandlerImpl(LambdaExpressionInterpreter interpreter) {
         if (interpreter == null) throw new IllegalArgumentException("intepreter is null.");
         
         this.interpreter = interpreter;
     }
-
-    private final LambdaExpressionInterpreter interpreter;
     
     @Override
     public String interpret(String targetType, LambdaTermRoot tree) {
