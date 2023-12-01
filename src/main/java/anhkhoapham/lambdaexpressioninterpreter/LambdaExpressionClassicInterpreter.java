@@ -7,7 +7,7 @@ package anhkhoapham.lambdaexpressioninterpreter;
 import anhkhoapham.lambdacalculus.LambdaExpressionTree.Nodes.LambdaTermExpressionNode;
 import anhkhoapham.lambdacalculus.LambdaExpressionTree.Root.LambdaTermRoot;
 import anhkhoapham.lambdacalculus.LambdaExpressionTree.Builders.LambdaTermNodeBuilder;
-import anhkhoapham.lambdacalculus.LambdaExpressonTree.Parser.LambdaExpressionParser;
+import anhkhoapham.lambdacalculus.LambdaExpressionTree.Parser.LambdaExpressionParser;
 import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.atomic.AtomicInteger;

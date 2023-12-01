@@ -6,8 +6,8 @@ package anhkhoapham.lambdaexpressioninterpreter;
 
 import anhkhoapham.lambdacalculus.LambdaExpressionTree.Builders.LambdaTermNodeBuilder;
 import anhkhoapham.lambdacalculus.LambdaExpressionTree.Builders.LambdaTermNodeBuiltInBuilder;
-import anhkhoapham.lambdacalculus.LambdaExpressonTree.Parser.LambdaExpressionExternalTreePorterParser;
-import anhkhoapham.lambdacalculus.LambdaExpressonTree.Parser.LambdaExpressionParser;
+import anhkhoapham.lambdacalculus.LambdaExpressionTree.Parser.LambdaExpressionExternalTreePorterParser;
+import anhkhoapham.lambdacalculus.LambdaExpressionTree.Parser.LambdaExpressionParser;
 import static org.junit.Assert.*;
 
 /**
