@@ -1,0 +1,3 @@
+[submodule "LambdaExpressionInterpreter"]
+	path = LambdaExpressionInterpreter
+	url = https://github.com/ReversePolishNotationITProject/LambdaExpressionInterpreter
